@@ -10,3 +10,8 @@ An experimental Android application which implement annotation processing
 ## Tech Stack
 - Java 8
 - Android
+
+## How to Use
+- Place annotation @Smart at Class and @Getter or @Setter at its field
+- Compile or build project (in Android Studio can be done through **Build -> Rebuild Project**) to auto generate Smart POJO
+- A new POJO with prepended "Smart" in its name is now already generated and ready to use
